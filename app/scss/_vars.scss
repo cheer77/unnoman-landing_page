@@ -4,9 +4,21 @@ $footer:#7b7b7b;
 $title:#191919;
 $border:#f6f6f6;
 
-%dmsans-400 {
-    font-family: 'DMSans-Regular';
+%poppins-400 {
+    font-family: 'Poppins-Regular';
     font-weight: 400;
+}
+%poppins-500 {
+    font-family: 'Poppins-Medium';
+    font-weight: 500;
+}
+%poppins-600 {
+    font-family: 'Poppins-SemiBold';
+    font-weight: 600;
+}
+%poppins-700 {
+    font-family: 'Poppins-Bold';
+    font-weight: 700;
 }
 
 

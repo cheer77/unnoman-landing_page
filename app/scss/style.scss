@@ -7,7 +7,65 @@
 
 
 
-
+.header{
+    margin-top: 20px;
+    min-height: 78px;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 15px;
+    &__wrapper{
+        margin-left: 170px;
+    }
+    &__items{
+        display: flex;
+        padding-right: 50px;
+    }
+    &__item{
+        margin-right: 24px;
+        &:last-child{
+            margin-right: 0;
+        }
+    }
+    &__link{
+        font-size: 14px;
+        line-height: 28px;
+        transition: all 0.9s;
+        padding-bottom: 5px;
+        color: #2F281E;
+        @extend %poppins-400;
+        &:hover{
+            border-bottom: 1px solid #2F281E;
+        }
+    }
+    &__btn-in{
+        padding: 10px 24px;
+        border: 1px solid #BCD0E5;
+        border-radius: 4px;
+        font-size: 16px;
+        line-height: 24px;
+        color: #173A56;
+        cursor: pointer;
+        &:hover{
+            background-color: #f5faff;
+        }
+    }
+    &__btn-up{
+        padding: 11px 24px;
+        background: #FF9900;
+        border-radius: 4px;
+        color: #fff;
+        font-size: 16px;
+        line-height: 24px;
+        margin-left: 10px;
+        cursor: pointer;
+        &:hover{
+            background-color: #ffac2e;
+        }
+    }
+}
 
 
 
