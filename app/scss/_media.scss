@@ -1,0 +1,20 @@
+
+
+@media (max-width:1099px){
+    .container{
+        max-width: 1040px;
+    }
+
+    .nav{
+        &__wrapper{
+            margin-left: 0px;
+        }
+    }
+
+    .content{
+        &__img{
+            max-width: 450px;
+            height: 350px;
+        }
+    }
+}
