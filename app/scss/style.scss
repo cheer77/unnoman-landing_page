@@ -16,11 +16,14 @@
     align-items: center;
     margin-top: 15px;
     background-color: #fff;
-    width: 100%;
-    width: 100vw;
-    // max-width: 1110px;
+    padding-top: 20px;
+    top: 0;
+    left: 0;
+    right: 0;
+    max-width: 1110px;
+    min-height: 78px;
+    margin: 0 auto;
     position: fixed;
-    overflow: hidden;
     &__wrapper{
         margin-left: 170px;
     }
@@ -45,7 +48,9 @@
             border-bottom: 1px solid #2F281E;
         }
     }
-
+    &__btns{
+        margin-right: 10px;
+    }
     &__btn-in{
         padding: 10px 24px;
         border: 1px solid #BCD0E5;
@@ -55,7 +60,7 @@
         color: #173A56;
         cursor: pointer;
         &:hover{
-            background-color: #f5faff;
+            background-color: #d7dde4;
         }
     }
     &__btn-up{
@@ -74,10 +79,45 @@
     &__btns-mob{
         display: none;
     }
+    &__gamburger{
+        display: none;
+        position: absolute;
+        right: 30px;
+        top: 60%;
+        transform: translateY(-50%);
+        width: 60px;
+        height: 40px;
+        padding: 5px;
+        cursor: pointer;
+        & span{
+            display: block;
+            height: 2px;
+            width: 100%;
+            background-color: #2F281E;
+            margin-bottom: 5px;
+            transition: all 0.5s;
+        }
+    }
+    &__gamburger-active{
+        padding: 10px;
+        width: 60px;
+        span{
+            margin-bottom: -2px;
+        }
+        span:nth-child(1){
+            transform: rotate(-45deg);
+        }
+        span:nth-child(2){
+            display: none;
+        }
+        span:nth-child(3){
+            transform: rotate(45deg);
+        }
+    }
 }
 
 .content{
-    margin-top: 30px;
+    margin-top: 110px;
     display: flex;
     justify-content: space-between;
     // flex-wrap: wrap;
@@ -125,6 +165,7 @@
         padding-left: 29px;
         position: relative;
         cursor: pointer;
+        z-index: 1;
         &::before{
             content: '';
             position: absolute;
@@ -133,6 +174,7 @@
             border-top: 12px solid transparent;
             border-left: 20px solid #FF9900;
             border-bottom: 12px solid transparent;
+            z-index: -1;
             left: 0;
             top: 0;
             border-radius: 3px;
