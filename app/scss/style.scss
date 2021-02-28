@@ -205,7 +205,8 @@
 
     .footer-about,
     .footer-disc{
-        max-width: 118px;
+        max-width: 128px;
+        margin-left: 15px;
         &__link{
             font-size: 16px;
             line-height: 35px;
@@ -226,6 +227,7 @@
         margin-top: 20px;
         width: 100%;
         max-width: 325px;
+        margin-left: 15px;
         &__input{
             width: 100%;
             max-width: 325px;
