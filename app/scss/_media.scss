@@ -5,19 +5,21 @@
         max-width: 1040px;
     }
 
-    .nav{
-        &__wrapper{
-            margin-left: 0px;
+    .header{
+        .nav{
+            &__wrapper{
+                margin-left: 0px;
+            }
+            &__logo{
+                margin-left: 15px;
+            }
         }
-        &__logo{
-            margin-left: 15px;
-        }
-    }
-
-    .content{
-        &__img{
-            max-width: 450px;
-            height: 350px;
+    
+        .content{
+            &__img{
+                max-width: 450px;
+                height: 350px;
+            }
         }
     }
 }
@@ -224,7 +226,7 @@
             &:first-child{
                 margin-top: 20px;
             }
-            
+
         }
         &__item-img{
             margin: 0 auto;
@@ -235,6 +237,7 @@
         }
     }
     // Content section ------ end ----->
+
 
 
 
