@@ -161,6 +161,41 @@
             max-width: 420px;
         }
     }
+
+
+    .product{
+        margin-top: 80px;
+        &__inner{
+            justify-content: center;
+            text-align: center;
+        }
+        &__img{
+            max-width: 420px;
+        }
+        &__items{
+            margin-top: 36px;
+            max-width: 586px;
+        }
+        &__text{
+            text-align: start;
+        }
+    }
+
+
+    .marketers{
+        margin-top: 80px;
+        &__inner{
+            justify-content: center;
+            text-align: center;
+        }
+        &__items{
+            margin-top: 36px;
+            max-width: 586px;
+        }
+        &__img{
+            max-width: 420px;
+        }
+    }
     // Content section ------- end ----->
 
 
@@ -262,7 +297,38 @@
 
 
 
-    .design{
+    .design,
+    .marketers{
+        margin-top: 50px;
+        &__inner{
+            justify-content: center;
+            text-align: center;
+        }
+        &__items{
+            margin-top: 36px;
+            max-width: 586px;
+        }
+        &__title{
+            font-size: 28px;
+            line-height: 34px;
+        }
+        &__under-title{
+            margin-top: 10px;
+        }
+        &__title-lowwer{
+            margin-top:38px;
+        }
+        &__text{
+            margin-top: 7px;
+        }
+        &__img{
+            max-width: 200px;
+        }
+    }
+
+
+
+    .product{
         margin-top: 50px;
         &__inner{
             justify-content: center;
