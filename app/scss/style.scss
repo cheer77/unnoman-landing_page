@@ -24,6 +24,7 @@
     min-height: 78px;
     margin: 0 auto;
     position: fixed;
+    z-index: 1000;
     &__wrapper{
         margin-left: 170px;
     }
@@ -412,6 +413,96 @@
 // Marketers section --- end --->
 
 
+
+// Hero section ------>
+.hero{
+    min-height: 835px;
+    margin-top: 157px;
+    background-image: url('../images/hero-bg.webp');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    z-index: 1;
+    
+    &__inner{
+        display: flex;
+        justify-content: center;
+        position: relative;
+    }
+    
+    &__wrapper-img{
+        
+    }
+
+    &__wrapper-img--mob{
+        display: none;
+    }
+
+    &__wrapper-descr{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding-top: 230px;
+        max-width: 542px;
+    }
+
+    &__img-1{
+        position: absolute;
+        top: 171px;
+        left: 0;
+    }
+    &__img-2{
+        position: absolute;
+        top: 99px;
+        right: 65px;
+        
+    }
+    &__img-3{
+        position: absolute;
+        right: 0;
+        bottom: -119px;
+    }
+    &__img-4{
+        position: absolute;
+        bottom: -254px;
+        left: 410px;
+    }
+    &__img-5{
+        position: absolute;
+        bottom: -160px;
+        left: 45px;
+    }
+    
+
+    &__title{
+        font-size: 36px;
+        line-height: 54px;
+        text-align: center;
+        color: #2F281E;
+    }
+    &__text{
+        margin-top: 22px;
+        font-size: 16px;
+        line-height: 26px;
+        text-align: center;
+        color: #567592;
+    }
+    &__btn{
+        display: block;
+        margin: 45px auto 0;
+        font-size: 16px;
+        line-height: 24px;
+        color: #fff;
+        padding: 15px 30px;
+        background: #FF9900;
+        border-radius: 4px;
+        cursor: pointer;
+        &:hover{
+            background-color: #ffac2e;
+        }
+    }
+}
+// Hero section --- end --->
 
 
 
