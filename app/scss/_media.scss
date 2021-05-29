@@ -222,10 +222,6 @@
             margin-top: 50px;
         }
 
-        &__img-1--mob{
-
-        }
-
         &__img-2--mob{
             margin-top: 40px;
         }
@@ -239,18 +235,23 @@
             margin-top: 40px;
         }
     }
+
+
+    .strategie{
+        margin-top: 100px;
+        &__descr{
+            margin: 0 auto 55px;
+            max-width: 522px;
+            text-align: center;
+        }
+    }    
     // Content section ------- end ----->
 
 
 
 
     // Footer ---------->
-    .footer{
-        .footer__inner{
-            // flex-direction: column;
-            // align-items: center;
-        }
-    }
+
     // Footer ----- end ----->
 
 
@@ -299,9 +300,7 @@
                 align-items: center;
                 justify-content: space-between;
             }
-            &__btn-start{
-    
-            }
+
             &__btn-video{
                 margin-left: 0;
                 margin-top: 40px;
@@ -428,6 +427,81 @@
             margin-top: 15px;
         }
     }
+
+
+
+
+    .strategie{
+        margin-top: 30px;
+        &__descr{
+            margin-bottom: 55px;
+            max-width: 622px;
+        }
+    
+        &__title{
+            font-size: 34px;
+            line-height: 51px;
+            color: #2F281E
+        }
+    
+        &__text{
+            font-size: 16px;
+            line-height: 26px;
+            color: #544837;
+            margin-top: 9px;
+        }
+    
+        &__slide{
+            min-height: 309px;
+        }
+    
+        &__slide-img{
+            object-fit: cover;
+            width: 348px;
+            max-height: 185px;
+        }
+    
+        &__slide-autor span{
+        }
+    
+        &__slide-autor{
+            display: inline-block;
+            margin-top: 15px;
+            font-size: 12px;
+            line-height: 28px;
+            color: #544837;
+            margin-right: 4px;
+        }
+    
+    
+        &__slide-date{
+            display: inline-block;
+            font-size: 11px;
+            line-height: 28px;
+            color: #544837;
+            position: relative;
+            padding-left: 4px;
+        }
+    
+        &__slide-title{
+            margin-top: 9px;
+            font-size: 18px;
+            line-height: 22px;
+        }
+
+
+
+
+        .slick-slide{
+            padding-left: 13px;
+        }
+
+        .slick-dots{
+            margin: -15px 0 30px;
+        }
+    }
+
+
     // Content section ------ end ----->
 
 
